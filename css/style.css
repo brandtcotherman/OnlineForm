@@ -79,7 +79,7 @@ input[type="text"]:focus{
 input[type="email"]:focus{
     border:1px solid darkslategrey;
 }
-input[type="telephone"]:focus{
+input[type="tel"]:focus{
     border:1px solid darkslategrey;
 }
 textarea:focus{
@@ -92,7 +92,7 @@ button:hover{
 /* ================================= 
   Root Design (Mobile 1st approach)
 ==================================== */
-input[type="text"], input[type="email"], input[type="telephone"], textarea, select {
+input[type="text"], input[type="email"], input[type="tel"], textarea, select {
     text-align: left;
     background: rgba(255,255,255,0.1);
     border: none;
@@ -123,7 +123,7 @@ input#zipcode{
         display: inline-block;
         width:20%;
     }
-    input[type="text"], input[type="email"], input[type="telephone"], textarea, select{
+    input[type="text"], input[type="email"], input[type="tel"], textarea, select{
         display: inline-block;
         width:75%;
     }
